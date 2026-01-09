@@ -117,7 +117,7 @@ with left:
     num_sections = st.slider("Number of options", 2, 8, 4)
 
     options = [
-        st.text_input(f"Option {i+1}", f"Choice {i+1}")
+        st.text_input(f"Option {i+1}", f"{i+1}")
         for i in range(num_sections)
     ]
 
